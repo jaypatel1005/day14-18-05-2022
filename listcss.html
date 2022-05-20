@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>CSS Hover Element - Selector OR Child Combinator</title>
+		<style type="text/css">
+		*{font-size:36px}
+			#MainUL li ul li{display:none;}
+			#MainUL li:hover ul li{display:block; font-size: 28px;color:magenta;}
+			#MainUL li:hover ul li ul li{display:none;font-size: 18px;color: gold;}
+			#MainUL li ul li:hover ul li{display:block;font-size: 34px;}
+			#MainUL li ul li:hover ul li ul li{display:none;color: goldenrod;}
+			#MainUL li ul li ul li:hover ul li{display:block;font-size: 28px;color: lavenderblush ;}
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="MainUL">
+			<li>Google
+				<ul>
+					
+                    <li>chrome
+                        <ul>
+                        <li>New tab</li>
+                        <li>incontigo tab</li>
+                            </ul>
+                    <li>Mail        
+						<ul>
+							<li>Sign Up</li>
+							<li>Sign In
+								<ul>
+									<li>Sign In As Admin</li>
+									<li>Sign In As Member</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					    <li>Youtube
+                            <ul>
+                                <li>video</li>
+                                <li>movie</li>
+                            </ul>
+                            </li>
+					    <li>instagram
+                            <ul>
+                                  <li>login</li>
+                                  <li>password</li>
+                              </ul>
+                          </li>
+
+					    <li>Watsapp
+                    <ul>
+                               <li>login</li>
+                                <li>Restore</li>
+                                <li>Backup</li>
+                        </ul>    
+                    </li>
+				</ul>
+			</li>
+			<li>Facebook
+                <ul>
+                    <li>password</li>
+                    <li>login</li>
+                    <li>img</li>
+                </ul>
+            </li>
+            </li>
+			<li>Microsoft
+				<ul>
+					<li>Bing</li>
+					<li>Linked In</li>
+				</ul>
+			</li>
+			<li>MSN</li>
+			<li>Amazon
+				<ul>
+					<li>AWS</li>
+					<li>Ecommerce</li>
+					<li>A-ML</li>
+				</ul>
+			</li>
+		</ul>
+		
+	</body>
+</html>
